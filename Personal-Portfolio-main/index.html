@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="/style.css">
+    <script src="https://kit.fontawesome.com/371452d232.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <div id="header" style="background-image: url(/images/chakrimain.jpg) ; width: 100%; height: 100vh;">
+        <div class="header-bar">
+            <nav>
+                <img src="/images/c.png" class="logo" alt="logo">
+                <ul id="sidemenu">
+                    <li ><a href="#header">Home</a></li>
+                    <li ><a href="#about">About</a></li>
+                    <li ><a href="#services">Services</a></li>
+                    <li ><a href="#portfolio">Portfolio</a></li>
+                    <li ><a href="#contact">Contact</a></li> 
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Python Full Stack Developer</p>
+                <h1>Hi, I'm Vankayala <span>Chakri Chandan Mehar</span><br>From <span>Guntur</span></h1>
+            </div>
+        </div>
+    </div>
+    <!-----------about------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="/images/chakriProfile.jpg" alt="About">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Recent IT graduate with a strong foundation in software and web development, including expertise 
+                        in HTML, CSS, BootStrap, JavaScript, React.JS, DJango, Git, Vercel, Python, and Java. Skilled in designing,
+                        developing, and optimizing software solutions and web applications. Known for attention to detail, problem-solving 
+                        abilities, and a collaborative approach to project development. Passionate about leveraging technical skills to deliver 
+                        high-quality software and web applications, continuously improve performance, and adapt to new 
+                        technologies in a dynamic environment. </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">skills</p>
+                        <p class="tab-links" onclick="opentab('Internships')">Internships</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Development</span><br>Web app Development</li>
+                            <li><span>App Development</span><br>Building Android/ios apps</li>
+                            <li><span>DJango</span><br>Python FrameWork</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Internships">
+                        <ul>
+                            <li><span>2024 July - Current</span><br>Python FullStack Developer Intern at Digit Institute.</li>
+                            <li><span>2023 May - 2023 July</span><br>Python Application Development at Gagan Apps.</li>
+                            <li><span>2024 January - 2024 March</span><br>Full Stack Web Development at WaySpire.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2024</span><br>BTech(CSE) from Kkr and ksr Institute of Technology and sciences Guntur.</li>
+                            <li><span>2020</span><br>Intermediate from Shastra Vijayawada.</li>
+                            <li><span>2018</span><br>SSC from Bhashyam Guntur.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!----------services------------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App Design</h2>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- -------------portfolio--------------- -->
+     <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="/images/work-1.png">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>The app connects you to the talented people around the world.
+                        Download it from play store.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div> 
+                </div>
+                <div class="work">
+                    <img src="/images/work-2.png">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>The app connects you to the talented people around the world.
+                        Download it from play store.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div> 
+                </div>
+                <div class="work">
+                    <img src="/images/work-3.png">
+                    <div class="layer">
+                        <h3>Online Shopping App</h3>
+                        <p>The app connects you to the talented people around the world.
+                        Download it from play store.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+     </div>
+     <!--------------contact--------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>chakrivankayala@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>7396645544</p>
+                    <div class="social-icons">
+                        <a href="https://facebook.com"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://twitter.com"><i class="fa-brands fa-twitter-square"></i></a>
+                        <a href="https://instagram.com"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://linkedin.com"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="/images/VankayalaChakriChandanMeharResume.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name ="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="Email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © CHAKRI. Made by <i class="fa-solid fa-heart"></i> my Resume</p>
+        </div>
+    </div>
+
+
+
+    
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname) {
+            for(tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbz44XJDdXM9QvkqUtLmRWDLoP20j5Ylt4LcocMduISuI-E2VUfSWw7U8dOaLOUzNcKV/exec'
+        const form = document.forms['submit-to-google-sheet']
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => console.log('Success!', response))
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
